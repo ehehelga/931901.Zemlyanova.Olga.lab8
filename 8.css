@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    margin-bottom: 0;
+}
+
+    .fr_btn {
+        margin: -3px;
+    }
+
+    input {
+        margin: -3px;
+    }
+
+.btn {
+    display: block;
+}
+
+.fields:first-child {
+    display: none;
+}
+
+.save {
+    margin-top: 20px;
+    
+    width: min-content;
+    padding: 5px;
+}

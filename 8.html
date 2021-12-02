@@ -1,0 +1,24 @@
+﻿<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task 8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="8.css" />
+    <script src="8.js"></script>
+</head>
+<body>
+    <form id="forma">
+        <div class="fields">
+            <input type="text" style="text-align: center;">
+            <input type="text" style="text-align: center;">
+            <button class="fr_btn" type="button" onclick="move_up(this)">&#8593</button>
+            <button class="fr_btn" type="button" onclick="move_down(this)">&#8595</button>
+            <button class="fr_btn" style="font-size: 11px;" type="button" onclick="delestr(this)">&#10006</button>
+        </div>
+    </form>
+    <button class="btn" onclick="new_string()">Добавить элемент</button>
+    <button class="btn" type="button" onclick="save_data()">Сохранить</button>  
+</body>
+</html>
